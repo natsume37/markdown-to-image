@@ -62,6 +62,7 @@ export default function Editor() {
           <div className="flex flex-col w-fit">
             <Md2Poster theme="SpringGradientWave" copySuccessCallback={copySuccessCallback} ref={markdownRef}>
               <Md2PosterHeader className="flex justify-center items-center px-4 font-medium text-lg">
+                <span>马丁AI助手 </span>
                 <span>{new Date().toISOString().slice(0, 10)}</span>
               </Md2PosterHeader>
               <Md2PosterContent>{mdString}</Md2PosterContent>
